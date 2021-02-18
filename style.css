@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: trebuchet MS, sans-serif;
+  font-weight: 600;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000000;
+  display: flex;
+  justify content: center;
+  align-items: center;
+
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #ffffff;
+  margin-left: auto;
+  padding: 20px 50px;;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+/* Add a red background color to navbar links on hover */
+.topnav a:hover, .navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  diplay: flex;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.bodymain {
+  display: flex;
+  background-image: url("Image/splash1.jpg");
+  background-color: #cccccc;
+  background-color: #c5cae9;
+  padding: 60px 45px;
+
+}
+.secdiv {
+  max-width: 760px;
+  color: white;
+  margin-top: 350;
+  margin-bottom: 250;
+}
+.secdiv a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  color: white;
+
+}
+.secdiv h1 {
+  font-size: 30px;
+  line-height: 50px;
+  letter-spacing: 3px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 3rem;
+
+
+}
+.secdiv p {
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 25;
+  max-width: 550;
+}
+.btn {
+  background-color: red;
+  padding: 12px 20px;
+  letter-spacing: 2px;
+  border: 1px solid #fff;
+}
+
+.bomen {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.body2 {
+  max-width: 1050px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+.latnew {
+  max-width: 800px;
+  display: flex;
+  margin: 50px 0px;
+}
+.latnew h1 {
+  display: flex;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  color: red;
+  font-size: 3rem;
+}
+
+.footer {
+  margin-bottom: 50;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  padding: 12px 20px;
+  background-color: red;
+  border: 1px solid #000;
+  letter-spacing: 2px;
+}

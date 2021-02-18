@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css"
+</head>
+
+<div class="topnav">
+  <div>
+    <img src="image/omega.jpg" width="200" height="75" alt="Omega Logo" class="headerlogo"/>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">ABOUT
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="who_we_are.html">WHO WE ARE</a>
+      <a href="meet_the_team.html">MEET THE TEAM</a>
+      <a href="services.html">SERVICES</a>
+      <a href="qualifications.html">QUALIFICATIONS</a>
+    </div>
+  </div>
+  <div class="dropdown">
+     <a href="featured_projects.html">FEATURED PROJECTS</a>
+     <a href="careers.html">CAREERS</a>
+     <a href="news.html">NEWS</a>
+     <a href="contact_us.html">CONTACT</a>
+     <a href="index.html"></a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+
+<div class="header">
+<h1>Contact Us</h1>
+</div>
+
+<div class="body">
+<body>
+  <p><b> IT Manager: </b></p>
+  <p2>Call: 000-000-0000 </p>
+</body>
+</div>
+
+<br></br>
+
+<div class="footer">
+<body>
+  <a href="index.html">Home</a>
+</body>
+
+<footer>
+  <img src="image/omega.jpg" alt="Omega Logo"/>
+</footer>
+</div>
+
+</html>
